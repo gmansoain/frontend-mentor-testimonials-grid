@@ -14,8 +14,10 @@
 <body>
     <main class="ds">
         <header class="ds__header">
-            <h1 class="text-heading">Design System</h1>
-            <p class="text-body">The visual vocabulary for this project</p>
+            <h1 style="font-size: var(--font-size-900);">Design System</h1>
+            <p style="font-size: var(--font-size-500);">The visual vocabulary for this project</p>
+            <!-- <h1 class="text-heading">Design System</h1>
+            <p class="text-body">The visual vocabulary for this project</p> -->
         </header>
         <section class="ds__section">
             <h2 class="ds__section-title">Colors</h2>
@@ -63,14 +65,14 @@
             <div class="type-list">
                 <div class="type-sample">
                     <p class="type-sample__meta">text-heading — 1.404rem / 22.46px / bold</p>
-                    <p class="text-heading" style="background-color: var(--color-primary-500); padding: 1.5rem; border-radius: var(--radius-md);">
+                    <p class="text-heading">
                     I received a job offer mid-course, and the subjects I learned were current, if not more so, 
                     in the company I joined. I honestly feel I got every penny’s worth.
                     </p>
                 </div>
                 <div class="type-sample">
                     <p class="type-sample__meta">text-body — 0.8125rem / 13px / regular</p>
-                    <p class="text-body" style="background-color: var(--color-neutral-gray-500); padding: 1.5rem; border-radius: var(--radius-md);">I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
+                    <p class="text-body">I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
   transition and have heard some people who had an amazing experience here.</p>
                 </div>
                 <div class="type-sample">
@@ -131,15 +133,15 @@
         <section class="ds__section">
             <h2 class="ds__section-title">Radii & Shadows</h2>
             <div class="chip-grid">
-                <div class="chip" style="border-radius: var(--radius-sm);">radius-sm</div>
-                <div class="chip" style="border-radius: var(--radius-md);">radius-md</div>
-                <div class="chip" style="border-radius: var(--radius-lg);">radius-lg</div>
-                <div class="chip" style="border-radius: var(--radius-full);">radius-full</div>
+                <div class="chip" style="border: 2px solid var(--color-primary-500); border-radius: var(--radius-sm);">radius-sm</div>
+                <div class="chip" style="border: 2px solid var(--color-primary-500); border-radius: var(--radius-md);">radius-md</div>
+                <div class="chip" style="border: 2px solid var(--color-primary-500); border-radius: var(--radius-lg);">radius-lg</div>
+                <div class="chip" style="border: 2px solid var(--color-primary-500); border-radius: var(--radius-full);">radius-full</div>
             </div>
             <div class="chip-grid" style="margin-top: var(--space-500);">
-                <div class="chip" style="box-shadow: var(--shadow-sm);">shadow-sm</div>
-                <div class="chip" style="box-shadow: var(--shadow-md);">shadow-md</div>
-                <div class="chip" style="box-shadow: var(--shadow-lg);">shadow-lg</div>
+                <div class="chip" style="background-color: var(--color-primary-50); box-shadow: var(--shadow-sm);">shadow-sm</div>
+                <div class="chip" style="background-color: var(--color-primary-50); box-shadow: var(--shadow-md);">shadow-md</div>
+                <div class="chip" style="background-color: var(--color-primary-50); box-shadow: var(--shadow-lg);">shadow-lg</div>
             </div>
         </section>
     </main>

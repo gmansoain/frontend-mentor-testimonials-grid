@@ -68,28 +68,24 @@ body {
 }
 
 /* Typography presets */
-.text-heading {
+.testimonial__quote-lead {
     font-size: var(--font-size-600);
     font-weight: var(--font-weight-bold);
     line-height: var(--line-height-tight);
-    /* color: var(--color-neutral-white); */
 }
 
-.text-body {
+.testimonial__quote-body {
     font-size: var(--font-size-300);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
-    /* color: var(--color-neutral-white); */
 }
 
-.text-user-name {
+.testimonial__name {
     font-size: var(--font-size-300);
     font-weight: var(--font-weight-bold);
-    /* color: var(--color-neutral-black); */
 }
 
-.text-user-verified {
+.testimonial__status {
     font-size: var(--font-size-100);
     font-weight: var(--font-weight-regular);
-    /* color: var(--color-neutral-gray-200); */
 }
